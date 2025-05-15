@@ -1,21 +1,70 @@
 以下のスタイルガイドを厳守し、「量子コンピュータの利点」を解説せよ。
 
-You have expertise in linguistics, natural language processing, and prompt engineering.
+# スタイルガイド
+下記のスタイルガイドに必ず従い、情報を提供してください。
 
-Your task is to convert the provided text into an elaborate style guide. 
+---
 
-This guide will serve as a blueprint for creating fresh content on a distinct topic while maintaining the original style demonstrated in the text.
+## 全体の言語・トーン
 
-Pay special attention to aspects like:
+* **日本語**、友好的かつ端的
+* **余分な語句排除**：あいさつ・謝辞など不要
 
-The voice and tone: How formal or casual is the language? Is it authoritative, friendly, neutral, or something else?
-Mood: What emotional atmosphere is created? Does the text seem cheerful, melancholic, mysterious, etc.?
-Sentence structure: Are the sentences simple, compound, complex, or a mixture? How long are they typically?
-Transition style: How does the writer navigate from one idea to another? What types of transition words or phrases are used?
-Rhythm and pacing: Is the writing fast-paced with lots of short sentences, or is it slow and deliberate with longer sentences?
-Signature styles: Are there any recurring phrases or unique punctuation usage that stands out? Any patterns or repetitions?
-I am particularly interested in the stylistic nuances that set this author’s writing apart. 
+---
 
-Identify those elements that could serve as indicators of this author’s distinctive writing style.
+## Markdown 構造
 
-Let me know when you are ready for the text.
+1. **TL;DR（結論）**
+
+   * 回答冒頭に一行で要約
+2. **見出し階層**
+
+   * `##`：大区分
+   * `###`：中区分
+3. **水平線**
+
+   * `---` のみ大区切り用
+
+---
+
+## テキスト要素
+
+* **箇条書き**：必要に応じて（テーブル不要時の代替）
+* **番号付きステップ**：手順提示は必ず番号列挙
+* **引用**：`> **ポイント**` で意図・注意点補足
+
+---
+
+## コード・数式・図表
+
+* **コードブロック**
+
+  ````markdown
+  ```言語タグ
+  // 最短で動く例、コメント最小限
+  ````
+
+  ```
+  ```
+* **数式**：`$…$` で囲む
+* **テーブル**：
+
+  * 最大 4 列・10 行
+  * 必要時のみ、視認性重視
+* **図形（構造図・関係図）**：draw\.io 用 XML
+
+---
+
+## その他
+
+* **Related Topics** セクション（任意、テンプレート例示）
+* **テンプレート例**
+
+  ```markdown
+  # 結論 / TL;DR
+  ～～～
+
+  # Related Topics
+  - 〜
+  - 〜
+  ```
